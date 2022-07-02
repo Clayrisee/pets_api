@@ -1,0 +1,16 @@
+services:
+  # db:
+    # image: postgres:14.1-alpine
+    # restart: always
+    # environment:
+    #   - POSTGRES_USER=haikal
+    #   - POSTGRES_PASSWORD=password
+    # ports:
+    #   - '5432:5432'
+    # volumes: 
+    # - db:/var/lib/postgresql/data
+
+
+  api:
+    build: .
+    network_mode: "host"
