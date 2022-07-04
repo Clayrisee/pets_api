@@ -175,6 +175,7 @@ Output
 ```
 
 <img src="images/after_update.png" alt="read" width="650"/> 
+
 ## Delete (url/pets/<pet_id>)
 
 You can delete the element of the database using this url.
